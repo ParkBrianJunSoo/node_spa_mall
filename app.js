@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3002;
+const port = 3005;
 
 const goodsRouter = require('./routes/goods'); // './' = 상대 경로를 나타내는 것
 // routes라는 폴더에서 goods.js 파일을 찾음
